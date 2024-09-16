@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Hotel.jpg" alt="">
+            <p>Você chegou em um hotel silencioso ao anoitecer.A recpação está vazia e há uma espessa camada de poeira nosmóvis.No balcão de atendimento,ela encontra uma chave com o número 13 gravado,junto com uma nota que diz: "Para encontrar a verdadeira, siga o som do relógio".</p>
+            <button class="btn-proximo" data-proximo="1">seguir o som do relogio</button>
+            <button class="btn-proximo" data-proximo="2">procurar outras chaves</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A sua frente você pode encontrar um porão e um quarto escuro.</p>
+            <button class="btn-proximo" data-proximo="3">Quarto escuro</button>
+            <button class="btn-proximo" data-proximo="4">Entrar no porão</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você encontra dois corredores sendo um deles o corredor pricipal e o corredor usado pelos antigos funcionarios</p>
+            <button class="btn-proximo" data-proximo="5">Corredor dos funcionarios</button>
+            <button class="btn-proximo" data-proximo="6">Corredor principal</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p> Nesse quarto há fotografia antigas nas paredes.Você encontra um diario com anotações de um antigo detetve.</p>
+            <button class="btn-proximo" data-proximo="7">Ler o diario</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="Porão.jpg" alt="">
+            <p>Você encontra uma caixa com velas e fósforos.Uma vela acesa revela um mapa antigo.E tera que voltar para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nesse coredor você encontrou uma porta misteriosa.</p>
+            <button class="btn-proximo" data-proximo="7">Abrir o diario</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você encontra um relogio antigo que faz um som inquietante, o ponteiro esta marcando ás 3 horas. Ao mexer no relogio,uma porta secreta se abre,revelando um quarto escuro.</p>
+            <button class="btn-proximo" data-proximo="8">Entrar no quarto escuro</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="Hotel.jpg" alt="">
+            <p>No meio do diario encontra a chave ara um quarto  secreto onde estão escondidos as evidenciasdos crimes.Ela consegue escapar e publicar sua história, revelando a verdade.</p>
+          
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>O quarto escuro deu acesso a um diario misterioso</p>
+            <button class="btn-proximo" data-proximo="7">Ler o diario</button>
+        </div>
+
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
